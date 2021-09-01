@@ -1,0 +1,295 @@
+{
+    "pueues.py": [
+        {
+            "operation": "PASTE",
+            "lines": 5,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 01:40:14",
+            "keyStrokeInfo": "\"\"\"Make a Queue class using a list!\r\nHint: You can use any Python list method\r\nyou'd like! Try to write each one in as \r\nfew lines as possible.\r\nMake sure you pass the test cases too!\"\"\"",
+            "position": "1,1"
+        }
+    ],
+    "queues.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 01:41:11",
+            "keyStrokeInfo": "\r\n",
+            "position": "5,42"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 01:41:11",
+            "keyStrokeInfo": "\r\n",
+            "position": "6,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 12,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 01:41:12",
+            "keyStrokeInfo": "class Queue:\r\n    def _init_(self, head=None):\r\n        self.storage = [head]\r\n \r\n    def enqueue(self, new_element):\r\n        self.storage.append(new_element)\r\n \r\n    def peek(self):\r\n        return self.storage[0] \r\n \r\n    def dequeue(self):\r\n        return self.storage.pop(0)",
+            "position": "7,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 09:40:53",
+            "keyStrokeInfo": "# ",
+            "position": "9,9"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 09:40:54",
+            "keyStrokeInfo": "\r\n        ",
+            "position": "9,32"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 09:40:55",
+            "keyStrokeInfo": "p",
+            "position": "10,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 09:40:55",
+            "keyStrokeInfo": "a",
+            "position": "10,10"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 09:40:56",
+            "keyStrokeInfo": "s",
+            "position": "10,11"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 09:40:56",
+            "keyStrokeInfo": "s",
+            "position": "10,12"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 09:40:58",
+            "keyStrokeInfo": "\\",
+            "position": "16,32"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 09:41:00",
+            "keyStrokeInfo": "",
+            "position": "16,32"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 09:41:01",
+            "keyStrokeInfo": "\r\n        ",
+            "position": "16,32"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 09:41:01",
+            "keyStrokeInfo": "p",
+            "position": "17,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 09:41:01",
+            "keyStrokeInfo": "a",
+            "position": "17,10"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 09:41:02",
+            "keyStrokeInfo": "s",
+            "position": "17,11"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 09:41:02",
+            "keyStrokeInfo": "s",
+            "position": "17,12"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 09:41:04",
+            "keyStrokeInfo": "\r\n        ",
+            "position": "13,41"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 09:41:05",
+            "keyStrokeInfo": "p",
+            "position": "14,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 09:41:05",
+            "keyStrokeInfo": "a",
+            "position": "14,10"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 09:41:05",
+            "keyStrokeInfo": "s",
+            "position": "14,11"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 09:41:05",
+            "keyStrokeInfo": "s",
+            "position": "14,12"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 09:41:11",
+            "keyStrokeInfo": "\r\n        ",
+            "position": "21,35"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 09:41:12",
+            "keyStrokeInfo": "p",
+            "position": "22,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 09:41:12",
+            "keyStrokeInfo": "a",
+            "position": "22,10"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 09:41:12",
+            "keyStrokeInfo": "s",
+            "position": "22,11"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 09:41:12",
+            "keyStrokeInfo": "s",
+            "position": "22,12"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 09:41:16",
+            "keyStrokeInfo": "# ",
+            "position": "21,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 09:41:18",
+            "keyStrokeInfo": "# ",
+            "position": "17,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 09:41:21",
+            "keyStrokeInfo": "# ",
+            "position": "13,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 09:45:33",
+            "keyStrokeInfo": "_",
+            "position": "8,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 09:45:36",
+            "keyStrokeInfo": "_",
+            "position": "8,15"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 09:45:40",
+            "keyStrokeInfo": "",
+            "position": "9,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 09:45:40",
+            "keyStrokeInfo": "# ",
+            "position": "10,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 09:45:43",
+            "keyStrokeInfo": "",
+            "position": "13,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 09:45:44",
+            "keyStrokeInfo": "# ",
+            "position": "14,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 09:45:46",
+            "keyStrokeInfo": "",
+            "position": "17,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 09:45:47",
+            "keyStrokeInfo": "# ",
+            "position": "18,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 09:45:48",
+            "keyStrokeInfo": "",
+            "position": "21,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 09:45:50",
+            "keyStrokeInfo": "# ",
+            "position": "22,9"
+        }
+    ],
+    "test_queues.py": [
+        {
+            "operation": "PASTE",
+            "lines": 23,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 01:41:43",
+            "keyStrokeInfo": "import os,sys\r\nsys.path.append(os.getcwd())\r\nfrom queues import Queue  \r\nimport pytest\r\n\r\nq = Queue(1)\r\nq.enqueue(2)\r\nq.enqueue(3)\r\n\r\n\r\n@pytest.mark.parametrize(\"result\",[(1)])\r\ndef test_peek1(result):    \r\n    assert q.peek() == result\r\n    \r\n\r\n@pytest.mark.parametrize(\"result\",[(1)])\r\ndef test_dequeue2(result):    \r\n    assert q.dequeue() == result\r\n    q.enqueue(4)\r\n\r\n@pytest.mark.parametrize(\"result\",[(2),(3),(4)])\r\ndef test_dequeue1(result):    \r\n    assert q.dequeue() == result",
+            "position": "1,1"
+        }
+    ]
+}

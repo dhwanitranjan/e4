@@ -1,0 +1,39 @@
+{
+    "binarysearch.py": [
+        {
+            "operation": "PASTE",
+            "lines": 12,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 10:44:04",
+            "keyStrokeInfo": "    input_array.sort()\r\n    first=0\r\n    last = len(input_array)-1\r\n    while first <= last:\r\n        mid = (last+first)//2\r\n        if input_array[mid] == value:\r\n            return mid\r\n        elif(value < input_array[mid]):\r\n            last = mid-1\r\n        else:\r\n            first=mid+1\r\n    return -1",
+            "position": "14,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 10:44:07",
+            "keyStrokeInfo": "",
+            "position": "14,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 10:44:08",
+            "keyStrokeInfo": "",
+            "position": "14,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 10:44:08",
+            "keyStrokeInfo": "",
+            "position": "14,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 10:44:08",
+            "keyStrokeInfo": "",
+            "position": "14,5"
+        }
+    ]
+}

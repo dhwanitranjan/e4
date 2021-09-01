@@ -1,0 +1,15 @@
+[
+  "test_happyprimes.py::test_ishappyprimenumber[1000-False]",
+  "test_happyprimes.py::test_ishappyprimenumber[1008-False]",
+  "test_happyprimes.py::test_ishappyprimenumber[1418854-False]",
+  "test_happyprimes.py::test_ishappyprimenumber[19-True]",
+  "test_happyprimes.py::test_ishappyprimenumber[2-False]",
+  "test_happyprimes.py::test_ishappyprimenumber[23-True]",
+  "test_happyprimes.py::test_ishappyprimenumber[31-True]",
+  "test_happyprimes.py::test_ishappyprimenumber[331-True]",
+  "test_happyprimes.py::test_ishappyprimenumber[6-False]",
+  "test_happyprimes.py::test_ishappyprimenumber[709-True]",
+  "test_happyprimes.py::test_ishappyprimenumber[833-False]",
+  "test_happyprimes.py::test_ishappyprimenumber[833-True]",
+  "test_happyprimes.py::test_ishappyprimenumber[940-False]"
+]

@@ -1,0 +1,256 @@
+{
+    "linkedlist.py": [
+        {
+            "operation": "PASTE",
+            "lines": 10,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 10:47:44",
+            "keyStrokeInfo": "       counter = 1\r\n       current = self.head\r\n       if position < 1:\r\n           return None\r\n       while current and counter <= position:\r\n           if counter == position:\r\n               return current\r\n           current = current.next\r\n           counter += 1\r\n       return None",
+            "position": "43,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 10:47:48",
+            "keyStrokeInfo": "",
+            "position": "43,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 10:47:48",
+            "keyStrokeInfo": "",
+            "position": "43,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 10:47:48",
+            "keyStrokeInfo": "",
+            "position": "43,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 10:47:49",
+            "keyStrokeInfo": "",
+            "position": "43,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 10:47:49",
+            "keyStrokeInfo": "",
+            "position": "43,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 10:47:49",
+            "keyStrokeInfo": "",
+            "position": "43,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 10:47:49",
+            "keyStrokeInfo": "",
+            "position": "43,9"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 10:47:54",
+            "keyStrokeInfo": "        ",
+            "position": "52,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 24,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 10:48:23",
+            "keyStrokeInfo": "       flag = 1\r\n       current = self.head\r\n       if position > 1:\r\n           while current and flag < position:\r\n               if flag == position - 1:\r\n                   new_element.next = current.next\r\n                   current.next = new_element\r\n               current = current.next\r\n               flag += 1\r\n       elif position == 1:\r\n           new_element.next = self.head\r\n           self.head = new_element\r\n    def delete(self, value):\r\n       \"\"\"Delete the first node with a given value.\"\"\"\r\n       current = self.head\r\n       previous = None\r\n       while current.value != value and current.next:\r\n           previous = current\r\n           current = current.next\r\n       if current.value == value:\r\n           if previous:\r\n               previous.next = current.next\r\n           else:\r\n               self.head = current.nex",
+            "position": "60,9"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 10:48:30",
+            "keyStrokeInfo": "        ",
+            "position": "84,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 8,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 10:48:42",
+            "keyStrokeInfo": "",
+            "position": "75,4"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 9,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 10:48:48",
+            "keyStrokeInfo": "     previous = None\r\n        while current.value != value and current.next:\r\n            previous = current\r\n            current = current.next\r\n        if current.value == value:\r\n            if previous:\r\n                previous.next = current.next\r\n            else:\r\n                self.head = current.nex",
+            "position": "80,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 10:48:51",
+            "keyStrokeInfo": "",
+            "position": "80,13"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 10:48:51",
+            "keyStrokeInfo": "",
+            "position": "80,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 10:48:51",
+            "keyStrokeInfo": "",
+            "position": "80,5"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 10:48:52",
+            "keyStrokeInfo": "    ",
+            "position": "80,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 10:48:57",
+            "keyStrokeInfo": "",
+            "position": "72,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 10:48:57",
+            "keyStrokeInfo": "",
+            "position": "71,35"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 10:49:04",
+            "keyStrokeInfo": "        ",
+            "position": "72,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 10:49:06",
+            "keyStrokeInfo": "",
+            "position": "60,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 10:49:06",
+            "keyStrokeInfo": "",
+            "position": "60,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 10:49:06",
+            "keyStrokeInfo": "",
+            "position": "60,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 10:49:07",
+            "keyStrokeInfo": "",
+            "position": "60,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 10:49:07",
+            "keyStrokeInfo": "",
+            "position": "60,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 10:49:07",
+            "keyStrokeInfo": "",
+            "position": "60,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 10:49:08",
+            "keyStrokeInfo": "",
+            "position": "60,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 10:49:41",
+            "keyStrokeInfo": "t",
+            "position": "85,40"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 10:49:53",
+            "keyStrokeInfo": "\r\n                ",
+            "position": "85,41"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 10:49:53",
+            "keyStrokeInfo": "",
+            "position": "86,17"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 10:49:54",
+            "keyStrokeInfo": "",
+            "position": "87,13"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 10:49:54",
+            "keyStrokeInfo": "",
+            "position": "87,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 10:49:54",
+            "keyStrokeInfo": "",
+            "position": "87,5"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 5,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 10:49:55",
+            "keyStrokeInfo": "   def display(self):\r\n       current = self.head\r\n       while current != None:\r\n           print(current.value)\r\n           current =current.next",
+            "position": "87,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 10:49:58",
+            "keyStrokeInfo": "",
+            "position": "87,5"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 10:50:00",
+            "keyStrokeInfo": "        ",
+            "position": "91,1"
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+[
+  "test_movie_awards.py::test_movie_awards[oscarResults0-result0]",
+  "test_movie_awards.py::test_movie_awards[oscarResults1-result1]",
+  "test_movie_awards.py::test_movie_awards[oscarResults2-result2]"
+]
